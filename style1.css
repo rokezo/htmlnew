@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    background-color: rgb(120, 97, 202);
+}
+
+.image-container {
+    margin-bottom: 20px; 
+}
+img {
+    border-radius: 20px;
+}
+
+.download-container {
+    display: flex;
+    border: 1px solid black;
+    max-width: 50%;
+    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.upload {
+    background-color: gray;
+    padding: 10px; 
+}
+
+.time {
+    margin-left: 10px; 
+}
+
+.button-container button {
+    background-color: #809280; /* Зеленый цвет фона */
+    border: none; /* Убираем границы */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Определяем как блочный элемент */
+    font-size: 16px; /* Размер текста */
+    border-radius: 5px; /* Закругляем углы */
+    cursor: pointer; /* Устанавливаем курсор указателя */
+    transition-duration: 0.4s; /* Длительность анимации */
+}
+
+.button-container button:hover {
+    background-color: #150891; /* Темно-зеленый цвет фона при наведении */
+}
